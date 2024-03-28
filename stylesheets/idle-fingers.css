@@ -142,6 +142,6 @@ body .gist .pl-enti {
      color: #b83426;
 }
 
-body .gist .blob-code-inner { 
+.gist .diff-table .blob-code.blob-code-inner { 
     font-size: 28px !important; 
 }
