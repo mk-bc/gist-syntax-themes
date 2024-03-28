@@ -1,6 +1,11 @@
 body .gist .highlight {
     background: #323232;
+    font-size: 28px;
 }
+
+body .gist .highlight td {
+    font-size: inherit;
+
 body .gist .blob-num,
 body .gist .blob-code-inner,
 body .gist .pl-s2,
@@ -140,8 +145,4 @@ body .gist .pl-som,
 body .gist .pl-sr,
 body .gist .pl-enti {
      color: #b83426;
-}
-
-.gist .diff-table .blob-code.blob-code-inner { 
-    font-size: 28px !important; 
 }
