@@ -142,4 +142,6 @@ body .gist .pl-enti {
      color: #b83426;
 }
 
-.gist .blob-code-inner{ font-size:28px !important; }
+body .gist .blob-code-inner { 
+    font-size: 28px !important; 
+}
