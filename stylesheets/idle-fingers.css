@@ -1,6 +1,19 @@
+body .gist {
+     max-width: 1440px;
+     margin: 0 auto;
+}
+
+body .gist .highlight {
+     font-size: min(2.2vw, 18px) !important;
+     /* font-size: 22px !important; */
+}
+
+body .gist .gist-data {
+  border-radius: 5px;
+}
+
 body .gist .highlight {
     background: #323232;
-    font-size: 28px;
 }
 
 body .gist .highlight td {
@@ -8,6 +21,10 @@ body .gist .highlight td {
   line-height: 1;
   font-family: inherit;
   font-size: inherit;
+}
+
+body .gist .gist-data .blob-code-inner td {
+     word-wrap: break-word !important;
 }
 
 body .gist tr:first-child td {
@@ -163,3 +180,9 @@ body .gist .gist-meta {
   display: none;
 }
 
+@media screen and (max-width: 749px) {
+     body .gist .highlight {
+          font-size: min(4vw,16px) !important;
+          margin: 0 auto;
+     }
+}
