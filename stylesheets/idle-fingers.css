@@ -158,3 +158,8 @@ body .gist .pl-sr,
 body .gist .pl-enti {
      color: #b83426;
 }
+
+body .gist .gist-meta {
+  display: none;
+}
+
