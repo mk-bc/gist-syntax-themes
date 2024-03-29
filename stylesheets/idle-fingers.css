@@ -1,6 +1,10 @@
+body .gist .gist-data {
+  border-radius: 5px;
+}
+
 body .gist .highlight {
     background: #323232;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 body .gist .highlight td {
