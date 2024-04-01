@@ -182,7 +182,8 @@ body .gist .gist-meta {
 
 @media screen and (max-width: 749px) {
      body .gist .highlight {
-          font-size: min(4vw,16px) !important;
+          /* font-size: min(4vw,16px) !important; */
+          font-size: 14px !important;
           margin: 0 auto;
      }
 }
