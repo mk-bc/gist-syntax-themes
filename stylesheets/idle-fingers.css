@@ -3,6 +3,10 @@ body .gist {
      margin: 0 auto;
 }
 
+body p {
+     font-size: 18px;
+}
+
 body .gist .highlight {
      font-size: min(2.2vw, 18px) !important;
      /* font-size: 22px !important; */
@@ -182,7 +186,8 @@ body .gist .gist-meta {
 
 @media screen and (max-width: 749px) {
      body .gist .highlight {
-          font-size: min(4vw,16px) !important;
+          /* font-size: min(4vw,16px) !important; */
+          font-size: 12px !important;
           margin: 0 auto;
      }
 }
